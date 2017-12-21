@@ -1,0 +1,57 @@
+###^(BASIC BIOGRAPHICAL INFORMATION)
+
+**Name:**
+
+**Age:**
+
+**Appearance:**
+
+**Mentality/Personality:**
+
+**Background:**
+
+**Alignment:**
+
+**Affiliation/Reputation:**
+
+**Resources:**
+
+**Equipment/Weaponry:**
+
+---
+
+###^(POWERS AND SKILLS)
+
+**Intended Tier:**
+
+**Power One:**
+
+ *
+
+**Power Two:**
+
+ *
+
+**Power Three:**
+
+ *
+
+**Skills and Specialisations:**
+
+*     **Weakness:**
+
+---
+
+###^('ATTRIBUTES')
+
+**Strength:**
+
+**Agility:**
+
+**Intelligence/Wisdom:**
+
+**Combat Training:**
+
+**Defense/Recovery:**
+
+**Offense/Danger:**
