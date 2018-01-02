@@ -12,16 +12,6 @@ bot.command :user do |event|
   event.user.name
 end
 
-bot.command(:random, min_args: 0, max_args: 2, description: 'Generates a random number between 0 and 1, 0 and max or min and max.', usage: 'random [min/max] [max]') do |_event, min, max|
-  if max
-    rand(min.to_i..max.to_i)
-  elsif min
-    rand(0..min.to_i)
-  else
-    rand
-  end
-end
-
 bot.command :wiki do |_event|
   'https://www.reddit.com/r/SupersRP/wiki/index'
 end
@@ -41,6 +31,11 @@ end
 
 bot.command :character do |_event, *args|
   @search.find(args)
+end
+
+bot.command :decide do |_event, *args|
+  choices = args.delete('or')
+  choices.sample
 end
 
 bot.message(content: 'Ping!') do |event|

@@ -32,7 +32,11 @@ class Characters
         out.push(@list[name_key, 2])
       end
     end
-    out.join(' ')
+    if out.empty?
+      'no character sheet logged for ' + req + 'try checking the sheet: https://docs.google.com/spreadsheets/d/1nB9d4KpnpgvIUm63JyOJ3YR2BNG92yx6KTho9CeoI5I/edit?usp=sharing'
+    else
+      out.join(' ')
+    end
   end
 
   def reload
