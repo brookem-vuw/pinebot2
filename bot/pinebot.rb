@@ -4,7 +4,7 @@ require_relative 'quote_module'
 require_relative 'characters'
 
 
-bot = Discordrb::Commands::CommandBot.new token: 'Mzg2Mzk5NTY1MDIyMjMyNTc2.DRxnpA.r480IIQmfLa6YYZKKEmf_RvHyg8', prefix: '~'
+bot = Discordrb::Commands::CommandBot.new token: 'xxx', prefix: '~'
 
 @search = Characters.new
 @quotelog = QuoteModule.new
